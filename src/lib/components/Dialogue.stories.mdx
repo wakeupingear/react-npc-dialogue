@@ -1,0 +1,12 @@
+import { Meta, Story } from "@storybook/addon-docs";
+
+import Dialogue from "./Dialogue";
+const text = ["Hello, World!", 1000, "That's it", "$alert Or is it?"];
+
+<Meta title="Dialogue" component={Dialogue} />
+
+<Story name="Primary">
+  <Dialogue text={text} cursor="_" globalInput={true} commandDelimiter="$" delayMap={{
+      ",": 170,
+  }}/>
+</Story>

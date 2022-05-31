@@ -1,0 +1,41 @@
+{
+  "name": "react-npc-dialogue",
+  "version": "1.0.0",
+  "private": false,
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "games"
+  ],
+  "description": "React components for creating flexible NPC dialogue boxes",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Will Farhat",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@storybook/addon-actions": "^6.5.6",
+    "@storybook/addon-essentials": "^6.5.6",
+    "@storybook/addon-interactions": "^6.5.6",
+    "@storybook/addon-links": "^6.5.6",
+    "@storybook/builder-webpack4": "^6.5.6",
+    "@storybook/manager-webpack4": "^6.5.6",
+    "@storybook/react": "^6.5.6",
+    "@storybook/testing-library": "^0.0.11",
+    "babel-loader": "^8.2.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "sb": "^6.5.6",
+    "storybook": "^6.5.6"
+  }
+}

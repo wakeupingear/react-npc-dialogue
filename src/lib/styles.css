@@ -1,0 +1,26 @@
+.dialogue-outer-container {
+    transition: 0.25s;
+    border-radius: 2rem;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.dialogue-inactive {
+    opacity: 0;
+}
+
+.dialogue-outer-container:hover {
+    cursor: pointer;
+}
+
+.dialogue-inner-contianer {
+    transition: 0.2s;
+}
+
+.dialogue-text {
+    color: white;
+    font-size: 1.5rem;
+}
